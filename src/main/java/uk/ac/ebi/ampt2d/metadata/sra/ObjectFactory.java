@@ -17,6 +17,25 @@
  */
 package uk.ac.ebi.ampt2d.metadata.sra;
 
+import uk.ac.ebi.ampt2d.metadata.sra.common.AttributeType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.IdentifierType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.LinkType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.NameType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.ObjectType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.PipelineType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.PlatformType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.ProcessingType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.QualifiedNameType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.RefObjectType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.ReferenceAssemblyType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.ReferenceSequenceType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.SequencingDirectivesType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.SpotDescriptorType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.URLType;
+import uk.ac.ebi.ampt2d.metadata.sra.common.XRefType;
+import uk.ac.ebi.ampt2d.metadata.sra.study.StudySetType;
+import uk.ac.ebi.ampt2d.metadata.sra.study.StudyType;
+
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlRegistry;
