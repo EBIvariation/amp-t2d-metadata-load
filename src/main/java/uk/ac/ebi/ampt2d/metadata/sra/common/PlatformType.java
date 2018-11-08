@@ -17,6 +17,16 @@
  */
 package uk.ac.ebi.ampt2d.metadata.sra.common;
 
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeAbiSolidModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeBGISEQModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeCGModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeCapillaryModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeHelicosModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeIlluminaModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeIontorrentModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeOxfordNanoporeModel;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypePacBioModel;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;

@@ -17,8 +17,8 @@
  */
 package uk.ac.ebi.ampt2d.metadata.sra.experiment;
 
-import uk.ac.ebi.ampt2d.metadata.sra.common.TypeLibrarySource;
-import uk.ac.ebi.ampt2d.metadata.sra.common.TypeLibraryStrategy;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeLibrarySource;
+import uk.ac.ebi.ampt2d.metadata.sra.common.enums.TypeLibraryStrategy;
 import uk.ac.ebi.ampt2d.metadata.sra.common.XRefType;
 
 import java.math.BigInteger;

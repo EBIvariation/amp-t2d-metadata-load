@@ -15,7 +15,7 @@
  * limitations under the License.
  *
  */
-package uk.ac.ebi.ampt2d.metadata.sra.common;
+package uk.ac.ebi.ampt2d.metadata.sra.common.enums;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlEnumValue;
@@ -23,31 +23,28 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java class for typeCGModel.
+ * <p>Java class for typeBGISEQModel.
  * 
  * <p>The following schema fragment specifies the expected content contained within this class.
  * <p>
  * <pre>
- * &lt;simpleType name="typeCGModel">
+ * &lt;simpleType name="typeBGISEQModel">
  *   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *     &lt;enumeration value="Complete Genomics"/>
- *     &lt;enumeration value="unspecified"/>
+ *     &lt;enumeration value="BGISEQ-500"/>
  *   &lt;/restriction>
  * &lt;/simpleType>
  * </pre>
  * 
  */
-@XmlType(name = "typeCGModel", namespace = "SRA.common")
+@XmlType(name = "typeBGISEQModel", namespace = "SRA.common")
 @XmlEnum
-public enum TypeCGModel {
+public enum TypeBGISEQModel {
 
-    @XmlEnumValue("Complete Genomics")
-    COMPLETE_GENOMICS("Complete Genomics"),
-    @XmlEnumValue("unspecified")
-    UNSPECIFIED("unspecified");
+    @XmlEnumValue("BGISEQ-500")
+    BGISEQ_500("BGISEQ-500");
     private final String value;
 
-    TypeCGModel(String v) {
+    TypeBGISEQModel(String v) {
         value = v;
     }
 
@@ -55,8 +52,8 @@ public enum TypeCGModel {
         return value;
     }
 
-    public static TypeCGModel fromValue(String v) {
-        for (TypeCGModel c: TypeCGModel.values()) {
+    public static TypeBGISEQModel fromValue(String v) {
+        for (TypeBGISEQModel c: TypeBGISEQModel.values()) {
             if (c.value.equals(v)) {
                 return c;
             }
